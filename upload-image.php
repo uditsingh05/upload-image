@@ -1,5 +1,6 @@
 <?php
-
+	
+	//you can put this line in your constants file
 	define('upload_url', 'your upload folder url');
 
 	/** Uploads icons to server
@@ -11,6 +12,7 @@
 	
 		$thumbnail = str_replace(" ","%20",$thumbnail);
 		
+		//delete file if already exists
 		if(file_exists(upload_url.$name)) {
 			unlink(upload_url.$name);
 		}
