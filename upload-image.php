@@ -1,7 +1,7 @@
 <?php
 	
 	//you can put this line in your constants file
-	define('upload_url', 'your upload folder url');
+	define('upload_url', '/var/www/example.com/public_html/upload');
 
 	/** Uploads icons to server
 	  * @param String (Thumbnail URL)
